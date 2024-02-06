@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
-import './styles/global.css';
+import React from 'react';
+import '../globalStyles/global.css';
 
 import { ThemeProvider } from 'styled-components';
-import { defaultTheme } from './styles/defaultTheme'
+import { defaultTheme } from '../globalStyles/defaultTheme'
 import Head from 'next/head';
 
 

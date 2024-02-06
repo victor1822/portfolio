@@ -59,7 +59,7 @@ const TypographyStyledComponent = styled.h1<TypographyProps>`
   font-family: ${props => props.theme.fonts.primary};
   color: ${props => returnTypographyColor(props.color ?? 'white', props.theme)};
   @media (max-width: 840px) {
-    font-size: ${props => props.$variant === 'maintitle' ? "18px" : returnVariantFontSize(props.$variant)}
+    font-size: ${props => props.$variant === 'maintitle' ? "18px" : returnVariantFontSize(props.$variant)};
   }
 `
 export const Typography = (props: TypographyProps) => {
